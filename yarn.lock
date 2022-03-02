@@ -5786,10 +5786,10 @@ gatsby-recipes@^1.0.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-datocms@^3.0.10:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-source-datocms/-/gatsby-source-datocms-3.0.10.tgz#ff1b3e41cb20946fac22e6873e95ce7d56e2e44c"
-  integrity sha512-gSR43aZ1y+ggQBN9TvdAeIbJPvRy4dTonbBNJ7wQx75rrR7gMRyKLtK9gAhW6yYxnNHSvRh5BGW3UcRNTSbk5A==
+gatsby-source-datocms@^3.0.16:
+  version "3.0.16"
+  resolved "https://registry.yarnpkg.com/gatsby-source-datocms/-/gatsby-source-datocms-3.0.16.tgz#c4a8825009578c613c2aed7d8ff1409a38959816"
+  integrity sha512-SN9xqLfquZI3DYypB66UDD/QsQgz1uWyb08eB64Zhcz3xHZwO2B7YsHj8kiK3FQOUkV7EHDOtWazeems3LeqHA==
   dependencies:
     core-js "^3.2.1"
     datocms-client ">=3.5.4"
@@ -5806,6 +5806,7 @@ gatsby-source-datocms@^3.0.10:
     promise-queue "2.2.5"
     query-string "6.14.1"
     regenerator-runtime "^0.13.3"
+    semver "^7.3.5"
     unist-util-visit "^2.0.3"
 
 gatsby-telemetry@^3.0.0:
